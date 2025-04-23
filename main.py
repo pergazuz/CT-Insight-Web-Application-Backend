@@ -98,7 +98,7 @@ async def process_dicom_files(dicomFiles: List[UploadFile] = File(...)):
     finally:
         # Only clean up if you want to remove files after processing
         # shutil.rmtree(temp_dir, ignore_errors=True)
-        pass  # Remove this line if you want to keep files for display
+        pass
 
 
 
